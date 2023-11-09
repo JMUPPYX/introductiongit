@@ -1,0 +1,52 @@
+* {
+    
+text-decoration: none;
+ margin: 0;
+padding: 0;
+box-sizing: border-box ;
+}
+    
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+  
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    
+}
+a {
+     color: white;
+}
+
+i{
+    color: white;
+    padding: 10px;
+}
+
+
+.baniere {
+    background: url("https://www.rockstarmag.fr/wp-content/uploads/2023/10/Miami-Beach-Wallpaper-2000x1200-56312-copie.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh; 
+}
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+    color: grey;
+}
+

@@ -1,0 +1,152 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+/*
+/*.parent {
+    height: 90vh;
+    width: 90%; 
+    border: 1px solid red;
+    margin: auto;
+    display: flex; le passe du verticale à l horizontale ou l inverse
+    justify-content: space-evenly; disposition horizontale
+    align-items: center; gere la hauteur du bloc
+    flex-wrap: wrap; responsive
+}
+
+.enfant {
+    height: 100px; ;
+    width: 100px;
+    background-color: green;
+
+}*/
+
+/*.parent {
+    position: relative;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.box,
+#checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#checkbox:checked ~ .box{
+    background: red;
+}
+/*
+div {
+    height: 30px;
+    width: 30px;
+}
+.test {
+    background-color: yellow;
+}
+
+#montest {
+    background-color: red;
+}
+
+div {
+    background-color: green;
+
+}
+*/
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.parent {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    
+   
+} 
+
+.navbar a {
+     text-decoration: none;
+    color: black;
+
+}
+
+.logo a  {
+    font-weight: 600;
+    font-weight: bold;
+}
+
+nav {
+    width : 70px
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.baniere {
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+img{
+    width: 90%;
+    height:600px
+
+}
+
+li {
+   padding: 0 30%  /* pour séparer les mots*/
+}
+
+body {   
+    height: 400vh;
+}/* pour que l image suive la page*/
+
+.baniere{
+    background: no-repeat url("./img/baniere.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .baniere h1{
+    color: #fafafa;
+    font-size: 3.5em;
+  }
+
+
+    
+
+
+
+
+
